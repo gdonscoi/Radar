@@ -106,5 +106,14 @@
     "dia": "20",
     "mes": "03",
     "descricao": "limite 40 km/h"
+  },
+  {
+    "nomeRua": "Av. Padre Atilio",
+    "localizacaoInicio": "-22.366505, -47.388997",
+    "localizacaoFim": "-22.361395, -47.385398",
+    "data": "4",
+    "dia": "21",
+    "mes": "03",
+    "descricao": "limite 40 km/h"
   }
 ]
