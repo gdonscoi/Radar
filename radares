@@ -1,0 +1,110 @@
+[
+  {
+    "nomeRua": "Av. Loreto",
+    "localizacaoInicio": "-22.360964, -47.371664",
+    "localizacaoFim": "-22.351872, -47.347494",
+    "data": "1",
+    "dia": "18",
+    "mes": "03",
+    "descricao": "limite 40 km/h"
+  },
+  {
+    "nomeRua": "Av. Melvin Jones",
+    "localizacaoInicio": "-22.366414, -47.376125",
+    "localizacaoFim": "-22.371536, -47.353917",
+    "data": "1",
+    "dia": "18",
+    "mes": "03",
+    "descricao": "limite 50 km/h"
+  },
+  {
+    "nomeRua": "Rua dos Coroados",
+    "localizacaoInicio": "-22.360138, -47.375344",
+    "localizacaoFim": "-22.360981, -47.372007",
+    "data": "1",
+    "dia": "18",
+    "mes": "03",
+    "descricao": "limite 50 km/h"
+  },
+  {
+    "nomeRua": "Av. Gofredo T. da Silva Telles",
+    "localizacaoInicio": "-22.367439, -47.370977",
+    "localizacaoFim": "-22.379532, -47.356472",
+    "data": "1",
+    "dia": "18",
+    "mes": "03",
+    "descricao": "limite 50 km/h"
+  },
+  {
+    "nomeRua": "Av. Horácio Krepschi",
+    "localizacaoInicio": "-22.358431, -47.369522",
+    "localizacaoFim": "-22.355410, -47.371341",
+    "data": "2",
+    "dia": "19",
+    "mes": "03",
+    "descricao": "limite 50 km/h"
+  },
+  {
+    "nomeRua": "Av. Luiz Carlos Tunes(Via Novela)",
+    "localizacaoInicio": "-22.380292, -47.356827",
+    "localizacaoFim": "-22.362658, -47.333759",
+    "data": "2",
+    "dia": "19",
+    "mes": "03",
+    "descricao": "limite 60 km/h"
+  },
+  {
+    "nomeRua": "Av. Loreto",
+    "localizacaoInicio": "-22.360964, -47.371664",
+    "localizacaoFim": "-22.351872, -47.347494",
+    "data": "2",
+    "dia": "19",
+    "mes": "03",
+    "descricao": "limite 40 km/h"
+  },
+  {
+    "nomeRua": "Av. Dona Renata",
+    "localizacaoInicio": "-22.360585, -47.380190",
+    "localizacaoFim": "-22.358383, -47.397452",
+    "data": "2",
+    "dia": "19",
+    "mes": "03",
+    "descricao": "limite 50 km/h"
+  },
+  {
+    "nomeRua": "Av. Padre Alarico Zacarias",
+    "localizacaoInicio": "-22.375599, -47.394239",
+    "localizacaoFim": "-22.360091, -47.387840",
+    "data": "3",
+    "dia": "20",
+    "mes": "03",
+    "descricao": "limite 40 km/h"
+  },
+  {
+    "nomeRua": "Rua dos Coroados",
+    "localizacaoInicio": "-22.360138, -47.375344",
+    "localizacaoFim": "-22.360981, -47.372007",
+    "data": "3",
+    "dia": "20",
+    "mes": "03",
+    "descricao": "limite 50 km/h"
+  },
+  {
+    "nomeRua": "Av. Loreto",
+    "localizacaoInicio": "-22.360964, -47.371664",
+    "localizacaoFim": "-22.351872, -47.347494",
+    "data": "3",
+    "dia": "20",
+    "mes": "03",
+    "descricao": "limite 40 km/h"
+  },
+  {
+    "nomeRua": "Av. Padre Atilio",
+    "localizacaoInicio": "-22.366505, -47.388997",
+    "localizacaoFim": "-22.361395, -47.385398",
+    "data": "3",
+    "dia": "20",
+    "mes": "03",
+    "descricao": "limite 40 km/h"
+  }
+]
