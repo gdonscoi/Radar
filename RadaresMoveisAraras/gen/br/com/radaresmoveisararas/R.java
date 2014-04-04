@@ -1185,24 +1185,27 @@ containing a value of this type.
         public static final int entrada2=0x7f02007a;
         public static final int entrada3=0x7f02007b;
         public static final int entrada4=0x7f02007c;
-        public static final int ic_action_search=0x7f02007d;
-        public static final int ic_drawer=0x7f02007e;
-        public static final int ic_launcher=0x7f02007f;
-        public static final int ic_navigation_drawer=0x7f020080;
-        public static final int ic_plusone_medium_off_client=0x7f020081;
-        public static final int ic_plusone_small_off_client=0x7f020082;
-        public static final int ic_plusone_standard_off_client=0x7f020083;
-        public static final int ic_plusone_tall_off_client=0x7f020084;
-        public static final int icone=0x7f020085;
-        public static final int iconecor=0x7f020086;
-        public static final int linearlayout_bordas_redondas=0x7f020087;
-        public static final int start_blue=0x7f020088;
-        public static final int start_green=0x7f020089;
-        public static final int start_orange=0x7f02008a;
-        public static final int start_purple=0x7f02008b;
-        public static final int start_red=0x7f02008c;
+        public static final int fundo_bordas_redondas=0x7f02007d;
+        public static final int ic_action_search=0x7f02007e;
+        public static final int ic_drawer=0x7f02007f;
+        public static final int ic_launcher=0x7f020080;
+        public static final int ic_navigation_drawer=0x7f020081;
+        public static final int ic_plusone_medium_off_client=0x7f020082;
+        public static final int ic_plusone_small_off_client=0x7f020083;
+        public static final int ic_plusone_standard_off_client=0x7f020084;
+        public static final int ic_plusone_tall_off_client=0x7f020085;
+        public static final int icone=0x7f020086;
+        public static final int iconecor=0x7f020087;
+        public static final int linearlayout_bordas_redondas=0x7f020088;
+        public static final int start_blue=0x7f020089;
+        public static final int start_green=0x7f02008a;
+        public static final int start_orange=0x7f02008b;
+        public static final int start_purple=0x7f02008c;
+        public static final int start_red=0x7f02008d;
     }
     public static final class id {
+        public static final int TextView01=0x7f06004f;
+        public static final int TextView02=0x7f060050;
         public static final int action_bar=0x7f06001f;
         public static final int action_bar_activity_content=0x7f060018;
         public static final int action_bar_container=0x7f06001e;
@@ -1214,7 +1217,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060019;
         public static final int action_menu_presenter=0x7f06001a;
         public static final int action_mode_close_button=0x7f060027;
-        public static final int action_settings=0x7f06004e;
+        public static final int action_settings=0x7f060056;
         public static final int activity_chooser_view_content=0x7f060028;
         public static final int always=0x7f06000f;
         public static final int beginning=0x7f060014;
@@ -1222,16 +1225,16 @@ containing a value of this type.
         public static final int checkbox=0x7f060030;
         public static final int collapseActionView=0x7f060011;
         public static final int default_activity_button=0x7f06002b;
-        public static final int descricao_mapa=0x7f060047;
+        public static final int descricao_mapa=0x7f060048;
         public static final int dialog=0x7f060012;
         public static final int disableHome=0x7f06000c;
-        public static final int drawer_layout=0x7f060049;
+        public static final int drawer_layout=0x7f06004a;
         public static final int dropdown=0x7f060013;
         public static final int edit_query=0x7f060033;
         public static final int end=0x7f060016;
         public static final int expand_activities_button=0x7f060029;
         public static final int expanded_menu=0x7f06002f;
-        public static final int fmap=0x7f060048;
+        public static final int fmap=0x7f060049;
         public static final int home=0x7f060017;
         public static final int homeAsUp=0x7f060009;
         public static final int hybrid=0x7f060004;
@@ -1240,13 +1243,13 @@ containing a value of this type.
         public static final int image=0x7f06002a;
         public static final int imageView1=0x7f060043;
         public static final int iniciar=0x7f06003f;
-        public static final int left_drawer=0x7f06004b;
-        public static final int left_pane=0x7f060046;
+        public static final int left_drawer=0x7f06004c;
+        public static final int left_pane=0x7f060047;
         public static final int linearLayout1=0x7f060042;
         public static final int listMode=0x7f060005;
         public static final int list_item=0x7f06002c;
-        public static final int map=0x7f06004c;
-        public static final int menu_settings=0x7f06004d;
+        public static final int map=0x7f060054;
+        public static final int menu_settings=0x7f060055;
         public static final int middle=0x7f060015;
         public static final int never=0x7f06000d;
         public static final int none=0x7f060000;
@@ -1271,12 +1274,18 @@ containing a value of this type.
         public static final int showCustom=0x7f06000b;
         public static final int showHome=0x7f060008;
         public static final int showTitle=0x7f06000a;
-        public static final int sliding_pane_layout=0x7f060045;
-        public static final int smap=0x7f06004a;
+        public static final int sliding_pane_layout=0x7f060046;
+        public static final int smap=0x7f06004b;
+        public static final int sobre=0x7f060045;
         public static final int split_action_bar=0x7f060021;
         public static final int submit_area=0x7f06003c;
         public static final int tabMode=0x7f060006;
         public static final int terrain=0x7f060003;
+        public static final int textView1=0x7f06004d;
+        public static final int textView2=0x7f06004e;
+        public static final int textView3=0x7f060052;
+        public static final int textView4=0x7f060053;
+        public static final int textView5=0x7f060051;
         public static final int title=0x7f06002e;
         public static final int top_action_bar=0x7f060023;
         public static final int up=0x7f060024;
@@ -1337,15 +1346,17 @@ containing a value of this type.
         public static final int activity_main=0x7f030018;
         public static final int activity_menu=0x7f030019;
         public static final int activity_slide=0x7f03001a;
-        public static final int drawer_list_item=0x7f03001b;
-        public static final int list_menu=0x7f03001c;
-        public static final int map_fragment=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
+        public static final int activity_sobre=0x7f03001b;
+        public static final int drawer_list_item=0x7f03001c;
+        public static final int list_menu=0x7f03001d;
+        public static final int map_fragment=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
     }
     public static final class menu {
         public static final int activity_map=0x7f0c0000;
         public static final int main=0x7f0c0001;
         public static final int menu=0x7f0c0002;
+        public static final int sobre=0x7f0c0003;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1493,6 +1504,12 @@ containing a value of this type.
         public static final int menuitem_refresh=0x7f070031;
         public static final int title_activity_map=0x7f07001d;
         public static final int title_activity_menu=0x7f07002c;
+        public static final int title_activity_sobre=0x7f070032;
+        public static final int txt_aplicativo=0x7f070033;
+        public static final int txt_atualizacao=0x7f070034;
+        public static final int txt_desenvolvedor=0x7f070035;
+        public static final int txt_desenvolvedor_email=0x7f070036;
+        public static final int txt_developed=0x7f070037;
     }
     public static final class style {
         /** 

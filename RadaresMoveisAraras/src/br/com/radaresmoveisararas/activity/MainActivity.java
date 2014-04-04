@@ -7,7 +7,6 @@ import java.util.Date;
 import java.util.List;
 
 import android.app.AlertDialog;
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -24,6 +23,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.Toast;
 import br.com.radaresmoveisararas.R;
+import br.com.radaresmoveisararas.SobreActivity;
 import br.com.radaresmoveisararas.bd.ORMLiteHelper;
 import br.com.radaresmoveisararas.beans.Radar;
 import br.com.radaresmoveisararas.beans.VersaoBD;
@@ -50,7 +50,6 @@ public class MainActivity extends ActionBarActivity{
 	}
 
 	public void onLoginClicked(View v) {
-		
 		locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 		if(!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
 			new AlertDialog.Builder(this)
@@ -76,6 +75,11 @@ public class MainActivity extends ActionBarActivity{
 		
 	}
 	
+	public void onSobreClicked(View v) {
+		Intent intent = new Intent(getApplicationContext(),SobreActivity.class);
+		MainActivity.this.startActivity(intent);
+	}
+	
 	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -86,7 +90,6 @@ public class MainActivity extends ActionBarActivity{
 
 	 public class ChamadaWebService extends AsyncTask<Integer, String, String> {
 		 
-	    	private ProgressDialog progress;
 	        private Context context;
 	        
 	        public ChamadaWebService(Context context) {

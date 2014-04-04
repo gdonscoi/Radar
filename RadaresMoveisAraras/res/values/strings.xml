@@ -10,5 +10,11 @@
     <string name="menu_descricao">Lista de Radares</string>
     <string name="carregando">Carregando ...</string>
     <string name="menuitem_refresh">Carregando</string>
-
+    <string name="title_activity_sobre">SobreActivity</string>
+    <string name="txt_aplicativo">As informações contidas neste aplicativo são tiradas do site da Prefeitura de Araras, podendo assim sofrer modificações sem aviso prévio.</string>
+    <string name="txt_atualizacao">As atualizações serão feitas conforme a necessidade e conectividade do celular no ato de acionar no botão "Entrar".</string>
+    <string name="txt_desenvolvedor">Gerson Donscoi Junior</string>
+    <string name="txt_desenvolvedor_email">donscoijr@gmail.com</string>
+    <string name="txt_developed">Designed and Developed by</string>
+	
 </resources>

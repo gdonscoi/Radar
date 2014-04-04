@@ -70,21 +70,21 @@ public final class R {
 		public static final int end_orange = 0x7f020076;
 		public static final int end_purple = 0x7f020077;
 		public static final int end_red = 0x7f020078;
-		public static final int ic_action_search = 0x7f02007d;
-		public static final int ic_launcher = 0x7f02007f;
-		public static final int ic_plusone_medium_off_client = 0x7f020081;
-		public static final int ic_plusone_small_off_client = 0x7f020082;
-		public static final int ic_plusone_standard_off_client = 0x7f020083;
-		public static final int ic_plusone_tall_off_client = 0x7f020084;
-		public static final int start_blue = 0x7f020088;
-		public static final int start_green = 0x7f020089;
-		public static final int start_orange = 0x7f02008a;
-		public static final int start_purple = 0x7f02008b;
-		public static final int start_red = 0x7f02008c;
+		public static final int ic_action_search = 0x7f02007e;
+		public static final int ic_launcher = 0x7f020080;
+		public static final int ic_plusone_medium_off_client = 0x7f020082;
+		public static final int ic_plusone_small_off_client = 0x7f020083;
+		public static final int ic_plusone_standard_off_client = 0x7f020084;
+		public static final int ic_plusone_tall_off_client = 0x7f020085;
+		public static final int start_blue = 0x7f020089;
+		public static final int start_green = 0x7f02008a;
+		public static final int start_orange = 0x7f02008b;
+		public static final int start_purple = 0x7f02008c;
+		public static final int start_red = 0x7f02008d;
 	}
 	public static final class id {
 		public static final int hybrid = 0x7f060004;
-		public static final int menu_settings = 0x7f06004d;
+		public static final int menu_settings = 0x7f060055;
 		public static final int none = 0x7f060000;
 		public static final int normal = 0x7f060001;
 		public static final int satellite = 0x7f060002;
