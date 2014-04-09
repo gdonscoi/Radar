@@ -9,7 +9,7 @@
     "descricao": "limite 60 km/h"
   },
   {
-    "nomeRua": "Estrada Municipal Fáio da Silva Prado (Cascata)",
+    "nomeRua": "Estrada Municipal Cascata",
     "localizacaoInicio": "-22.339042, -47.368893",
     "localizacaoFim": "-22.263480, -47.260093",
     "data": "0",
@@ -297,7 +297,7 @@
     "descricao": "limite 60 km/h"
   },
    {
-    "nomeRua": "Estrada Municipal Fáio da Silva Prado (Cascata)",
+    "nomeRua": "Estrada Municipal Cascata",
     "localizacaoInicio": "-22.339042, -47.368893",
     "localizacaoFim": "-22.263480, -47.260093",
     "data": "6",
