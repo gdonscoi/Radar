@@ -1,6 +1,6 @@
 [
   {
-    "nomeRua": "Av. Fáio da Silva Prado",
+    "nomeRua": "Av. Fábio da Silva Prado",
     "localizacaoInicio": "-22.349868, -47.376639",
     "localizacaoFim": "-22.339042, -47.368893",
     "data": "0",
@@ -243,7 +243,7 @@
     "descricao": "limite 50 km/h"
   },
    {
-    "nomeRua": "Av. Fáio da Silva Prado",
+    "nomeRua": "Av. Fábio da Silva Prado",
     "localizacaoInicio": "-22.349868, -47.376639",
     "localizacaoFim": "-22.339042, -47.368893",
     "data": "5",
@@ -288,7 +288,7 @@
     "descricao": "limite 40 km/h"
   },
    {
-    "nomeRua": "Av. Fáio da Silva Prado",
+    "nomeRua": "Av. Fábio da Silva Prado",
     "localizacaoInicio": "-22.349868, -47.376639",
     "localizacaoFim": "-22.339042, -47.368893",
     "data": "6",
