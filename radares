@@ -19,8 +19,8 @@
   },
    {
     "nomeRua": "Av. José Pavan",
-    "localizacaoInicio": "-22.362470, -47.355816",
-    "localizacaoFim": "-22.362718, -47.354255",
+    "localizacaoInicio": "-22.362718, -47.354255",
+    "localizacaoFim": "-22.362470, -47.355816",
     "data": "0",
     "dia": "13",
     "mes": "07",
@@ -361,8 +361,8 @@
   },
    {
     "nomeRua": "Av. José Pavan",
-    "localizacaoInicio": "-22.362470, -47.355816",
-    "localizacaoFim": "-22.362718, -47.354255",
+    "localizacaoInicio": "-22.362718, -47.354255",
+    "localizacaoFim": "-22.362470, -47.355816",
     "data": "6",
     "dia": "19",
     "mes": "07",
