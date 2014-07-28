@@ -4,7 +4,7 @@
     "localizacaoInicio": "-22.360964, -47.371664",
     "localizacaoFim": "-22.351872, -47.347494",
     "data": "0",
-    "dia": "20",
+    "dia": "27",
     "mes": "07",
     "descricao": "limite 40 km/h"
   },
@@ -13,7 +13,7 @@
     "localizacaoInicio": "-22.349868, -47.376639",
     "localizacaoFim": "-22.339042, -47.368893",
     "data": "0",
-    "dia": "20",
+    "dia": "27",
     "mes": "07",
     "descricao": "limite 60 km/h"
   },
@@ -22,7 +22,7 @@
     "localizacaoInicio": "-22.362718, -47.354255",
     "localizacaoFim": "-22.362470, -47.355816",
     "data": "0",
-    "dia": "20",
+    "dia": "27",
     "mes": "07",
     "descricao": "limite 50 km/h"
   },
@@ -31,7 +31,7 @@
     "localizacaoInicio": "-22.357929, -47.364090",
     "localizacaoFim": "-22.356500, -47.358214",
     "data": "0",
-    "dia": "20",
+    "dia": "27",
     "mes": "07",
     "descricao": "limite 50 km/h"
   },
@@ -40,7 +40,7 @@
     "localizacaoInicio": "-22.360585, -47.380190",
     "localizacaoFim": "-22.358383, -47.397452",
     "data": "0",
-    "dia": "20",
+    "dia": "27",
     "mes": "07",
     "descricao": "limite 50 km/h"
   },
@@ -49,7 +49,7 @@
     "localizacaoInicio": "-22.360138, -47.375344",
     "localizacaoFim": "-22.360981, -47.372007",
     "data": "0",
-    "dia": "20",
+    "dia": "27",
     "mes": "07",
     "descricao": "limite 50 km/h"
   },
@@ -58,10 +58,20 @@
     "localizacaoInicio": "-22.360964, -47.371664",
     "localizacaoFim": "-22.351872, -47.347494",
     "data": "1",
-    "dia": "21",
+    "dia": "28",
     "mes": "07",
     "descricao": "limite 40 km/h"
   },
+   {
+    "nomeRua": "Av. Augusta Viola da Costa",
+    "localizacaoInicio": "-22.359416, -47.355002",
+    "localizacaoFim": "-22.354410, -47.334220",
+    "data": "1",
+    "dia": "28",
+    "mes": "07",
+    "descricao": "limite 50 km/h"
+  },
+  
    {
     "nomeRua": "Av. José Ometto",
     "localizacaoInicio": "-22.363956, -47.378369",
