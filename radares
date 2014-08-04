@@ -8,15 +8,6 @@
     "mes": "08",
     "descricao": "limite 60 km/h"
   },
-       {
-    "nomeRua": "Av. Fábio da Silva Prado",
-    "localizacaoInicio": "-22.349868, -47.376639",
-    "localizacaoFim": "-22.339042, -47.368893",
-    "data": "0",
-    "dia": "03",
-    "mes": "08",
-    "descricao": "limite 60 km/h"
-  },
    {
     "nomeRua": "Rua Emilio Pacagnela",
     "localizacaoInicio": "-22.334530, -47.384727",
