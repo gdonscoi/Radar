@@ -37,15 +37,6 @@
         "descricao": "limite 60 km/h"
     },
     {
-        "nomeRua": "Av. Loreto",
-        "localizacaoInicio": "-22.360964, -47.371664",
-        "localizacaoFim": "-22.351872, -47.347494",
-        "data": "1",
-        "dia": "25",
-        "mes": "08",
-        "descricao": "limite 40 km/h"
-    },
-    {
         "nomeRua": "Av. José Ometto",
         "localizacaoInicio": "-22.363956, -47.378369",
         "localizacaoFim": "-22.375243, -47.373309",
