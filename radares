@@ -54,15 +54,6 @@
         "descricao": "limite 50 km/h"
     },
     {
-        "nomeRua": "Rua Achilina Fachini",
-        "localizacaoInicio": "-22.364301, -47.377742",
-        "localizacaoFim": "-22.360957, -47.370993",
-        "data": "1",
-        "dia": "25",
-        "mes": "08",
-        "descricao": "limite 40 km/h"
-    },
-    {
         "nomeRua": "Av. Pedro Mello",
         "localizacaoInicio": "-22.357929, -47.364090",
         "localizacaoFim": "-22.356500, -47.358214",
@@ -124,15 +115,6 @@
         "dia": "27",
         "mes": "08",
         "descricao": "limite 60 km/h"
-    },
-    {
-        "nomeRua": "Rua Achilina Fachini",
-        "localizacaoInicio": "-22.364301, -47.377742",
-        "localizacaoFim": "-22.360957, -47.370993",
-        "data": "3",
-        "dia": "27",
-        "mes": "08",
-        "descricao": "limite 40 km/h"
     },
     {
         "nomeRua": "Av. José Pavan",
