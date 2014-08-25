@@ -1,23 +1,5 @@
 [
     {
-        "nomeRua": "Av. Dona Renata",
-        "localizacaoInicio": "-22.360585, -47.380190",
-        "localizacaoFim": "-22.358383, -47.397452",
-        "data": "0",
-        "dia": "24",
-        "mes": "08",
-        "descricao": "limite 50 km/h"
-    },
-    {
-        "nomeRua": "Av. Maria Ap. M. Michelin",
-        "localizacaoInicio": "-22.349383, -47.385955",
-        "localizacaoFim": "-22.337475, -47.383377",
-        "data": "0",
-        "dia": "24",
-        "mes": "08",
-        "descricao": "limite 60 km/h"
-    },
-    {
         "nomeRua": "Av. Padre Atílio",
         "localizacaoInicio": "-22.366572, -47.389104",
         "localizacaoFim": "-22.361383, -47.385404",
@@ -90,24 +72,6 @@
         "descricao": "limite 50 km/h"
     },
     {
-        "nomeRua": "Av. Dona Renata",
-        "localizacaoInicio": "-22.360585, -47.380190",
-        "localizacaoFim": "-22.358383, -47.397452",
-        "data": "2",
-        "dia": "26",
-        "mes": "08",
-        "descricao": "limite 50 km/h"
-    },
-    {
-        "nomeRua": "Av. Milton Severino",
-        "localizacaoInicio": "-22.355162, -47.371271",
-        "localizacaoFim": "-22.355402, -47.360259",
-        "data": "2",
-        "dia": "26",
-        "mes": "08",
-        "descricao": "limite 60 km/h"
-    },
-    {
         "nomeRua": "Av. Augusta Viola da Costa",
         "localizacaoInicio": "-22.359416, -47.355002",
         "localizacaoFim": "-22.354410, -47.334220",
@@ -141,24 +105,6 @@
         "data": "2",
         "dia": "26",
         "mes": "08",
-        "descricao": "limite 50 km/h"
-    },
-    {
-        "nomeRua": "Av. Maria Ap. M. Michelin",
-        "localizacaoInicio": "-22.349383, -47.385955",
-        "localizacaoFim": "-22.337475, -47.383377",
-        "data": "3",
-        "dia": "27",
-        "mes": "08",
-        "descricao": "limite 60 km/h"
-    },
-    {
-        "nomeRua": "Rua Emilio Pacagnela",
-        "localizacaoInicio": "-22.334530, -47.384727",
-        "localizacaoFim": "-22.327281, -47.380403",
-        "data": "3",
-        "dia": "27",
-        "mes": "06",
         "descricao": "limite 50 km/h"
     },
     {
@@ -198,24 +144,6 @@
         "descricao": "limite 50 km/h"
     },
     {
-        "nomeRua": "Av. Padre Alarico Zacarias",
-        "localizacaoInicio": "-22.360506, -47.388365",
-        "localizacaoFim": "-22.374448, -47.393982",
-        "data": "4",
-        "dia": "28",
-        "mes": "08",
-        "descricao": "limite 40 km/h"
-    },
-    {
-        "nomeRua": "Av. Dona Renata",
-        "localizacaoInicio": "-22.360585, -47.380190",
-        "localizacaoFim": "-22.358383, -47.397452",
-        "data": "4",
-        "dia": "28",
-        "mes": "08",
-        "descricao": "limite 50 km/h"
-    },
-    {
         "nomeRua": "Av. Maria Ap. M. Michelin",
         "localizacaoInicio": "-22.349383, -47.385955",
         "localizacaoFim": "-22.337475, -47.383377",
@@ -239,24 +167,6 @@
         "localizacaoFim": "-22.355402, -47.360259",
         "data": "4",
         "dia": "28",
-        "mes": "08",
-        "descricao": "limite 60 km/h"
-    },
-    {
-        "nomeRua": "Rua Achilina Fachini",
-        "localizacaoInicio": "-22.364301, -47.377742",
-        "localizacaoFim": "-22.360957, -47.370993",
-        "data": "5",
-        "dia": "29",
-        "mes": "08",
-        "descricao": "limite 40 km/h"
-    },
-    {
-        "nomeRua": "Av. Maria Ap. M. Michelin",
-        "localizacaoInicio": "-22.349383, -47.385955",
-        "localizacaoFim": "-22.337475, -47.383377",
-        "data": "5",
-        "dia": "29",
         "mes": "08",
         "descricao": "limite 60 km/h"
     },
@@ -304,24 +214,6 @@
         "dia": "29",
         "mes": "08",
         "descricao": "limite 50 km/h"
-    },
-    {
-        "nomeRua": "Av. Loreto",
-        "localizacaoInicio": "-22.360964, -47.371664",
-        "localizacaoFim": "-22.351872, -47.347494",
-        "data": "6",
-        "dia": "30",
-        "mes": "08",
-        "descricao": "limite 40 km/h"
-    },
-    {
-        "nomeRua": "Av. Padre Atílio",
-        "localizacaoInicio": "-22.366572, -47.389104",
-        "localizacaoFim": "-22.361383, -47.385404",
-        "data": "6",
-        "dia": "30",
-        "mes": "08",
-        "descricao": "limite 40 km/h"
     },
     {
         "nomeRua": "Av. Padre Alarico Zacarias",
