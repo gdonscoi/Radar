@@ -1,5 +1,22 @@
 [
-
+    {
+        "nomeRua": "Av. Loreto",
+        "localizacaoInicio": "-22.360964, -47.371664",
+        "localizacaoFim": "-22.351872, -47.347494",
+        "data": "0",
+        "dia": "24",
+        "mes": "08",
+        "descricao": "limite 40 km/h"
+    },
+    {
+        "nomeRua": "Av. Padre Alarico Zacarias",
+        "localizacaoInicio": "-22.360506, -47.388365",
+        "localizacaoFim": "-22.374448, -47.393982",
+        "data": "0",
+        "dia": "24",
+        "mes": "08",
+        "descricao": "limite 40 km/h"
+    },
     {
         "nomeRua": "Av. Dona Renata",
         "localizacaoInicio": "-22.360585, -47.380190",
@@ -33,6 +50,24 @@
         "localizacaoFim": "-22.339042, -47.368893",
         "data": "0",
         "dia": "24",
+        "mes": "08",
+        "descricao": "limite 60 km/h"
+    },
+    {
+        "nomeRua": "Av. Loreto",
+        "localizacaoInicio": "-22.360964, -47.371664",
+        "localizacaoFim": "-22.351872, -47.347494",
+        "data": "1",
+        "dia": "25",
+        "mes": "08",
+        "descricao": "limite 40 km/h"
+    },
+    {
+        "nomeRua": "Av. José Ometto",
+        "localizacaoInicio": "-22.363956, -47.378369",
+        "localizacaoFim": "-22.375243, -47.373309",
+        "data": "1",
+        "dia": "25",
         "mes": "08",
         "descricao": "limite 60 km/h"
     },
@@ -90,7 +125,24 @@
         "mes": "08",
         "descricao": "limite 50 km/h"
     },
-
+    {
+        "nomeRua": "Av. Loreto",
+        "localizacaoInicio": "-22.360964, -47.371664",
+        "localizacaoFim": "-22.351872, -47.347494",
+        "data": "2",
+        "dia": "26",
+        "mes": "08",
+        "descricao": "limite 40 km/h"
+    },
+    {
+        "nomeRua": "Av. Gofredo T. da Silva Telles",
+        "localizacaoInicio": "-22.367439, -47.370977",
+        "localizacaoFim": "-22.379532, -47.356472",
+        "data": "2",
+        "dia": "26",
+        "mes": "06",
+        "descricao": "limite 50 km/h"
+    },
     {
         "nomeRua": "Av. Dona Renata",
         "localizacaoInicio": "-22.360585, -47.380190",
@@ -145,7 +197,24 @@
         "mes": "08",
         "descricao": "limite 50 km/h"
     },
-
+    {
+        "nomeRua": "Av. Dona Renata",
+        "localizacaoInicio": "-22.360585, -47.380190",
+        "localizacaoFim": "-22.358383, -47.397452",
+        "data": "3",
+        "dia": "27",
+        "mes": "08",
+        "descricao": "limite 50 km/h"
+    },
+    {
+        "nomeRua": "Av. Horácio Krepschi",
+        "localizacaoInicio": "-22.358431, -47.369522",
+        "localizacaoFim": "-22.355410, -47.371341",
+        "data": "3",
+        "dia": "27",
+        "mes": "08",
+        "descricao": "limite 50 km/h"
+    },
     {
         "nomeRua": "Av. Maria Ap. M. Michelin",
         "localizacaoInicio": "-22.349383, -47.385955",
@@ -199,6 +268,24 @@
         "dia": "27",
         "mes": "08",
         "descricao": "limite 50 km/h"
+    },
+    {
+        "nomeRua": "Av. Luiz Carlos Tunes(Via Novela)",
+        "localizacaoInicio": "-22.380292, -47.356827",
+        "localizacaoFim": "-22.362658, -47.333759",
+        "data": "4",
+        "dia": "28",
+        "mes": "08",
+        "descricao": "limite 60 km/h"
+    },
+    {
+        "nomeRua": "Av. Loreto",
+        "localizacaoInicio": "-22.360964, -47.371664",
+        "localizacaoFim": "-22.351872, -47.347494",
+        "data": "4",
+        "dia": "28",
+        "mes": "08",
+        "descricao": "limite 40 km/h"
     },
     {
         "nomeRua": "Av. Padre Alarico Zacarias",
@@ -255,6 +342,24 @@
         "descricao": "limite 50 km/h"
     },
     {
+        "nomeRua": "Av. Loreto",
+        "localizacaoInicio": "-22.360964, -47.371664",
+        "localizacaoFim": "-22.351872, -47.347494",
+        "data": "5",
+        "dia": "29",
+        "mes": "08",
+        "descricao": "limite 40 km/h"
+    },
+    {
+        "nomeRua": "Rua Achilina Fachini",
+        "localizacaoInicio": "-22.364301, -47.377742",
+        "localizacaoFim": "-22.360957, -47.370993",
+        "data": "5",
+        "dia": "27",
+        "mes": "08",
+        "descricao": "limite 40 km/h"
+    },
+    {
         "nomeRua": "Av. Maria Ap. M. Michelin",
         "localizacaoInicio": "-22.349383, -47.385955",
         "localizacaoFim": "-22.337475, -47.383377",
@@ -307,6 +412,24 @@
         "dia": "29",
         "mes": "08",
         "descricao": "limite 50 km/h"
+    },
+    {
+        "nomeRua": "Av. Dona Renata",
+        "localizacaoInicio": "-22.360585, -47.380190",
+        "localizacaoFim": "-22.358383, -47.397452",
+        "data": "6",
+        "dia": "30",
+        "mes": "08",
+        "descricao": "limite 50 km/h"
+    },
+    {
+        "nomeRua": "Av. Luiz Carlos Tunes(Via Novela)",
+        "localizacaoInicio": "-22.380292, -47.356827",
+        "localizacaoFim": "-22.362658, -47.333759",
+        "data": "6",
+        "dia": "30",
+        "mes": "08",
+        "descricao": "limite 60 km/h"
     },
     {
         "nomeRua": "Av. Loreto",
