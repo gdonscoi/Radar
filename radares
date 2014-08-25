@@ -117,15 +117,6 @@
         "descricao": "limite 40 km/h"
     },
     {
-        "nomeRua": "Av. Pedro Mello",
-        "localizacaoInicio": "-22.357929, -47.364090",
-        "localizacaoFim": "-22.356500, -47.358214",
-        "data": "1",
-        "dia": "25",
-        "mes": "08",
-        "descricao": "limite 50 km/h"
-    },
-    {
         "nomeRua": "Av. Loreto",
         "localizacaoInicio": "-22.360964, -47.371664",
         "localizacaoFim": "-22.351872, -47.347494",
@@ -183,15 +174,6 @@
         "nomeRua": "Rua dos Coroados",
         "localizacaoInicio": "-22.360138, -47.375344",
         "localizacaoFim": "-22.360981, -47.372007",
-        "data": "2",
-        "dia": "26",
-        "mes": "08",
-        "descricao": "limite 50 km/h"
-    },
-    {
-        "nomeRua": "Av. José Marques da Silva",
-        "localizacaoInicio": "-22.367587, -47.365765",
-        "localizacaoFim": "-22.360945, -47.368914",
         "data": "2",
         "dia": "26",
         "mes": "08",
@@ -261,15 +243,6 @@
         "descricao": "limite 40 km/h"
     },
     {
-        "nomeRua": "Av. José Pavan",
-        "localizacaoInicio": "-22.362718, -47.354255",
-        "localizacaoFim": "-22.362470, -47.355816",
-        "data": "3",
-        "dia": "27",
-        "mes": "08",
-        "descricao": "limite 50 km/h"
-    },
-    {
         "nomeRua": "Av. Luiz Carlos Tunes(Via Novela)",
         "localizacaoInicio": "-22.380292, -47.356827",
         "localizacaoFim": "-22.362658, -47.333759",
@@ -331,15 +304,6 @@
         "dia": "28",
         "mes": "08",
         "descricao": "limite 60 km/h"
-    },
-    {
-        "nomeRua": "Av. Melvin Jones",
-        "localizacaoInicio": "-22.366414, -47.376125",
-        "localizacaoFim": "-22.371536, -47.353917",
-        "data": "4",
-        "dia": "28",
-        "mes": "08",
-        "descricao": "limite 50 km/h"
     },
     {
         "nomeRua": "Av. Loreto",
@@ -405,15 +369,6 @@
         "descricao": "limite 50 km/h"
     },
     {
-        "nomeRua": "Av. José Marques da Silva",
-        "localizacaoInicio": "-22.367587, -47.365765",
-        "localizacaoFim": "-22.360945, -47.368914",
-        "data": "5",
-        "dia": "29",
-        "mes": "08",
-        "descricao": "limite 50 km/h"
-    },
-    {
         "nomeRua": "Av. Dona Renata",
         "localizacaoInicio": "-22.360585, -47.380190",
         "localizacaoFim": "-22.358383, -47.397452",
@@ -475,14 +430,5 @@
         "dia": "30",
         "mes": "08",
         "descricao": "limite 60 km/h"
-    },
-    {
-        "nomeRua": "Rua dos Coroados",
-        "localizacaoInicio": "-22.360138, -47.375344",
-        "localizacaoFim": "-22.360981, -47.372007",
-        "data": "6",
-        "dia": "30",
-        "mes": "08",
-        "descricao": "limite 50 km/h"
     }
 ]
