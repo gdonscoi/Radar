@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "nomeRua": "Av. Loreto",
+    "localizacaoInicio": "-22.360964, -47.371664",
+    "localizacaoFim": "-22.351872, -47.347494",
+    "descricao": "limite 40 km/h",
+    "pontos": ""
+  },
+  {
+    "id": "2",
+    "nomeRua": "Av. Padre Alarico Zacarias",
+    "localizacaoInicio": "-22.360506, -47.388365",
+    "localizacaoFim": "-22.374448, -47.393982",
+    "descricao": "limite 40 km/h",
+    "pontos": ""
+  }
+]
