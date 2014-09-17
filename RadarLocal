@@ -13,7 +13,7 @@
     "localizacaoInicio": "-22.360506, -47.388365",
     "localizacaoFim": "-22.374448, -47.393982",
     "descricao": "limite 40 km/h",
-    "pontos": "dhngCfpf`HbAXbFfBv@XhC~@fA\\TFn@Pp@RRHfAZ~@X@@`AV`Bd@~Ad@^L@?XHrAd@vAh@?@?@?@?@?@?@?@@??@?@@??@@@?@@?@@@@@?@??@@?@?@?@?@?@?@?@A@?@A@??A@??A@??A@A?A@AlC~@@?^H~@Z|@Z~@Z|@Zf@NlAf@xAb@`Bn@hAb@zCn@vDv@nDv@~@PTD"
+    "pontos": "dhngCfpf`HbAXbFfBv@XhC~@fA\\\\TFn@Pp@RRHfAZ~@X@@`AV`Bd@~Ad@^L@?XHrAd@vAh@?@?@?@?@?@?@?@@??@?@@??@@@?@@?@@@@@?@??@@?@?@?@?@?@?@?@A@?@A@??A@??A@??A@A?A@AlC~@@?^H~@Z|@Z~@Z|@Zf@NlAf@xAb@`Bn@hAb@zCn@vDv@nDv@~@PTD"
   },
   {
     "id": "3",
@@ -53,7 +53,7 @@
     "localizacaoInicio": "-22.363956, -47.378369",
     "localizacaoFim": "-22.375243, -47.373309",
     "descricao": "limite 60 km/h",
-    "pontos": "t}ngCvqd`HPI\\SPMLEbFmBv@[fDiAdU_IlBq@XKj@Sf@UTIlFiBdBk@b@Ob@MdAYfCq@zCy@"
+    "pontos": "t}ngCvqd`HPI\\\\SPMLEbFmBv@[fDiAdU_IlBq@XKj@Sf@UTIlFiBdBk@b@Ob@MdAYfCq@zCy@"
   },
   {
     "id": "8",
@@ -69,7 +69,7 @@
     "localizacaoInicio": "-22.366414, -47.376125",
     "localizacaoFim": "-22.371536, -47.353917",
     "descricao": "limite 50 km/h",
-    "pontos": "~logCvcd`HDUZaC\\gBb@oCBUFk@B_@Da@Da@Bc@Ba@Da@Ba@@SBS@G?O@_@@IPgE@K?MDq@JqB@KBGLc@"
+    "pontos": "~logCvcd`HDUZaC\\\\gBb@oCBUFk@B_@Da@Da@Bc@Ba@Da@Ba@@SBS@G?O@_@@IPgE@K?MDq@JqB@KBGLc@"
   },
   {
     "id": "10",
@@ -85,7 +85,7 @@
     "localizacaoInicio": "-22.367439, -47.370977",
     "localizacaoFim": "-22.379532, -47.356472",
     "descricao": "limite 50 km/h",
-    "pontos": "nsogCpcc`HHEh@[hAk@\\QVK~@k@nAs@b@Un@]rBeAx@c@x@e@x@c@z@c@v@a@v@a@t@c@t@a@@??@@?@??@@?@?@?@?@?@?@?@A@?@??A@??A@??A@??A@A@A?A?A@A?A?A?AbCmAzAw@pAs@`Ai@z@g@DCDADCDC@A@ADCDEBCDCBEDEBCBEDEBEBCBEBEBEBG@EBEBEBE@EBE@G@EBE@G@E@GToAL{@Ns@DSL[Ti@h@kARe@FKHMNQ@?@A@?@A@?@A@A@A@A?A@??A?A@A?A?A?A?A?A?A?A?A?A?AAADQBKL_@`AsBxAoDh@mA?C@C@A@C@CBA@C@ABC@ABAFG"
+    "pontos": "nsogCpcc`HHEh@[hAk@\\\\QVK~@k@nAs@b@Un@]rBeAx@c@x@e@x@c@z@c@v@a@v@a@t@c@t@a@@??@@?@??@@?@?@?@?@?@?@?@A@?@??A@??A@??A@??A@A@A?A?A@A?A?A?AbCmAzAw@pAs@`Ai@z@g@DCDADCDC@A@ADCDEBCDCBEDEBCBEDEBEBCBEBEBEBG@EBEBEBE@EBE@G@EBE@G@E@GToAL{@Ns@DSL[Ti@h@kARe@FKHMNQ@?@A@?@A@?@A@A@A@A?A@??A?A@A?A?A?A?A?A?A?A?A?A?AAADQBKL_@`AsBxAoDh@mA?C@C@A@C@CBA@C@ABC@ABAFG"
   },
   {
     "id": "12",
@@ -101,7 +101,7 @@
     "localizacaoInicio": "-22.360138, -47.375344",
     "localizacaoFim": "-22.360981, -47.372007",
     "descricao": "limite 50 km/h",
-    "pontos": "xengCx~c`HDIN[BG@E@G@I?M@QBq@?M@OBQ\\_Bt@iDBKBMBKBM@MBK@MBi@@K@K@IBS@K"
+    "pontos": "xengCx~c`HDIN[BG@E@G@I?M@QBq@?M@OBQ\\\\_Bt@iDBKBMBKBM@MBK@MBi@@K@K@IBS@K"
   },
   {
     "id": "14",
