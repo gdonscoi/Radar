@@ -43,7 +43,7 @@
     "id": "6",
     "nomeRua": "Av. Fábio da Silva Prado",
     "localizacaoInicio": "-22.349868, -47.376639",
-    "localizacaoFim": "-22.339042, -47.368893",
+    "localizacaoFim": "-22.339675, -47.369383",
     "descricao": "limite 60 km/h",
     "pontos": "xelgCrfd`HCAKGuAcAiHuFAC?A?A?AAA?AAA?AA??AAAA?AA?AA?A?AAA?A?AAA?A?A?A?A@A?A@A?kEsCkEsC?C?A?A?A?A?A?A?A?AAA?A?AAAAA?AAAA?AAAAA??AA?A?A?AAA?A?A?A@A?A?A?A@A??@A?iAm@e@YkBoAa@YwByAIEGCGAEAC?A?C?C?C@EBAAA??AA?AAA?A?A?A?A?A?A?eCuAAA?AAA?AAAAAAAAAA??AA?A?AAA?C?_@S_@Q_@S_@Q_@S_@Qc@Yc@[eAs@wA_A[Um@c@QKYO"
   },
@@ -82,10 +82,10 @@
   {
     "id": "11",
     "nomeRua": "Av. Gofredo T. da Silva Telles",
-    "localizacaoInicio": "-22.367439, -47.370977",
-    "localizacaoFim": "-22.379532, -47.356472",
+    "localizacaoInicio": "-22.367327, -47.371043",
+    "localizacaoFim": "-22.379979, -47.356350",
     "descricao": "limite 50 km/h",
-    "pontos": "nsogCpcc`HHEh@[hAk@\\QVK~@k@nAs@b@Un@]rBeAx@c@x@e@x@c@z@c@v@a@v@a@t@c@t@a@@??@@?@??@@?@?@?@?@?@?@?@A@?@??A@??A@??A@??A@A@A?A?A@A?A?A?AbCmAzAw@pAs@`Ai@z@g@DCDADCDC@A@ADCDEBCDCBEDEBCBEDEBEBCBEBEBEBG@EBEBEBE@EBE@G@EBE@G@E@GToAL{@Ns@DSL[Ti@h@kARe@FKHMNQ@?@A@?@A@?@A@A@A@A?A@??A?A@A?A?A?A?A?A?A?A?A?A?AAADQBKL_@`AsBxAoDh@mA?C@C@A@C@CBA@C@ABC@ABAFG"
+    "pontos": "xrogC~cc`H^Sh@[hAk@\\QVK~@k@nAs@b@Un@]rBeAx@c@x@e@x@c@z@c@v@a@v@a@t@c@t@a@@??@@?@??@@?@?@?@?@?@?@?@A@?@??A@??A@??A@??A@A@A?A?A@A?A?A?AbCmAzAw@pAs@`Ai@z@g@DCDADCDC@A@ADCDEBCDCBEDEBCBEDEBEBCBEBEBEBG@EBEBEBE@EBE@G@EBE@G@E@GToAL{@Ns@DSL[Ti@h@kARe@FKHMNQ@?@A@?@A@?@A@A@A@A?A@??A?A@A?A?A?A?A?A?A?A?A?A?AAADQBKL_@`AsBxAoDh@mA?C@C@A@C@CBA@C@ABC@ABAFG"
   },
   {
     "id": "12",
@@ -171,9 +171,9 @@
     "id": "22",
     "nomeRua": "Av. Pedro Mello",
     "localizacaoInicio": "-22.357929, -47.364090",
-    "localizacaoFim": "-22.356500, -47.358214",
+    "localizacaoFim": "-22.356456, -47.356523",
     "descricao": "limite 50 km/h",
-    "pontos": "`xmgCpxa`Hy@qHUsBEc@SoBK}@K{@CUGc@I_AAKIm@K}@M}@Io@AKSeBaA_IAQCMCGCI"
+    "pontos": "`xmgCpxa`Hy@qHUsBEc@SoBK}@K{@CUGc@I_AAKIm@K}@M}@Io@AKSeBaA_IAQCMAC"
   },
   {
     "id": "23",
