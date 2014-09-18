@@ -2,7 +2,7 @@
     {
         "semana": "0",
         "data": "07/09/2014",
-        "radarLocal": []
+        "radarLocal": ["1","2"]
     },
     {
         "semana": "1",
