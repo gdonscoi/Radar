@@ -182,5 +182,13 @@
     "localizacaoFim": "-22.357971, -47.364704",
     "descricao": "limite 50 km/h",
     "pontos": "f}mgC~wb`HAEK_@E_@KeAMoAYkCUuB[oCGg@Ge@I{@Eg@Ao@?A?]?C"
+  },
+  {
+    "id": "24",
+    "nomeRua": "Rua dos Cedros",
+    "localizacaoInicio": "-22.366442, -47.394140",
+    "localizacaoFim": "-22.367149, -47.391506",
+    "descricao": "limite 40 km/h",
+    "pontos": "fmogCltg`HDUDSNcANaAPcANcAb@cCXuA"
   }
 ]
