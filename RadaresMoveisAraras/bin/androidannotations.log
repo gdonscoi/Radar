@@ -1,0 +1,220 @@
+20:25:08.844 [Worker-7] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+20:25:08.845 [Worker-7] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 12 annotations on 13 elements
+20:25:08.861 [Worker-7] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras: /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras/AndroidManifest.xml
+20:25:08.863 [Worker-7] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.radaresmoveisararas, componentQualifiedNames=[br.com.radaresmoveisararas.activity.MainActivity_, br.com.radaresmoveisararas.activity.MenuActivity_], permissionQualifiedNames=[info.androidhive.googlemapsv2.permission.MAPS_RECEIVE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+20:25:08.863 [Worker-7] ERROR o.a.r.ProjectRClassFinder:46 - The generated br.com.radaresmoveisararas.R class cannot be found
+20:25:08.864 [Worker-7] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+20:25:08.870 [Worker-7] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 25 ms], [Extract Annotations = 14 ms], [Extract Manifest = 3 ms], 
+20:25:08.871 [Worker-7] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+20:25:15.826 [Worker-0] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+20:25:15.882 [Worker-0] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 12 annotations on 17 elements
+20:25:15.934 [Worker-0] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras: /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras/AndroidManifest.xml
+20:25:15.936 [Worker-0] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.radaresmoveisararas, componentQualifiedNames=[br.com.radaresmoveisararas.activity.MainActivity_, br.com.radaresmoveisararas.activity.MenuActivity_], permissionQualifiedNames=[info.androidhive.googlemapsv2.permission.MAPS_RECEIVE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+20:25:15.936 [Worker-0] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: br.com.radaresmoveisararas.R
+20:25:15.969 [Worker-0] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+20:25:15.985 [Worker-0] INFO  o.a.p.ModelValidator:42 - Validating elements
+20:25:16.15 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:25:16.43 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [br.com.radaresmoveisararas.beans.Radar, br.com.radaresmoveisararas.beans.VersaoRadarLocal, br.com.radaresmoveisararas.tasks.ControleVersao, br.com.radaresmoveisararas.beans.RadarLocal, br.com.radaresmoveisararas.beans.VersaoRadares]
+20:25:16.62 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [msg, mDrawerLayout]
+20:25:16.110 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with RestHandler: [br.com.radaresmoveisararas.webservice.WebService]
+20:25:16.135 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with GetHandler: [public abstract java.lang.String obterVersaoRadarLocal() , public abstract java.lang.String obterRadarLocal() , public abstract java.lang.String obterVersaoRadares() , public abstract java.lang.String obterRadares() ]
+20:25:16.136 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:25:16.137 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with RestServiceHandler: [webService]
+20:25:16.138 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHanlder: [context]
+20:25:16.138 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [versaoRadarLocal, radar, controleVersao, versaoRadares, radarLocal]
+20:25:16.139 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [protected void iniciarClasse() , protected void carregarInformacoes() ]
+20:25:16.157 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [public void erroGooglePlayServices() , public void exibirMsg(java.lang.String) , public void atualizarMsg(java.lang.String) ]
+20:25:16.197 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [public void iniciar(int) ]
+20:25:16.222 [Worker-0] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+20:25:16.249 [Worker-0] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:25:16.253 [Worker-0] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EBeanHandler: [br.com.radaresmoveisararas.beans.Radar, br.com.radaresmoveisararas.beans.VersaoRadarLocal, br.com.radaresmoveisararas.tasks.ControleVersao, br.com.radaresmoveisararas.beans.RadarLocal, br.com.radaresmoveisararas.beans.VersaoRadares]
+20:25:16.254 [Worker-0] DEBUG o.a.p.ModelProcessor:80 - Processing root elements RestHandler: [br.com.radaresmoveisararas.webservice.WebService]
+20:25:16.256 [Worker-0] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+20:25:16.260 [Worker-0] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 8
+20:25:16.261 [Worker-0] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+20:25:16.261 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.tasks.ControleVersao_
+20:25:16.266 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.webservice.WebService_
+20:25:16.271 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.activity.MainActivity_
+20:25:16.280 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.activity.MenuActivity_
+20:25:16.284 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.RadarLocal_
+20:25:16.287 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.Radar_
+20:25:16.292 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.VersaoRadarLocal_
+20:25:16.295 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.VersaoRadares_
+20:25:16.297 [Worker-0] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 415 ms], [Validate Annotations = 237 ms], [Find R Classes = 49 ms], [Extract Annotations = 46 ms], [Process Annotations = 38 ms], [Generate Sources = 37 ms], [Extract Manifest = 3 ms], 
+20:25:16.297 [Worker-0] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+20:25:54.502 [ModalContext] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+20:25:54.503 [ModalContext] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 12 annotations on 13 elements
+20:25:54.516 [ModalContext] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras: /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras/AndroidManifest.xml
+20:25:54.518 [ModalContext] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.radaresmoveisararas, componentQualifiedNames=[br.com.radaresmoveisararas.activity.MainActivity_, br.com.radaresmoveisararas.activity.MenuActivity_], permissionQualifiedNames=[info.androidhive.googlemapsv2.permission.MAPS_RECEIVE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+20:25:54.519 [ModalContext] ERROR o.a.r.ProjectRClassFinder:46 - The generated br.com.radaresmoveisararas.R class cannot be found
+20:25:54.520 [ModalContext] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+20:25:54.524 [ModalContext] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 21 ms], [Extract Annotations = 13 ms], [Extract Manifest = 2 ms], 
+20:25:54.525 [ModalContext] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+20:25:55.130 [Worker-0] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+20:25:55.131 [Worker-0] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 12 annotations on 17 elements
+20:25:55.144 [Worker-0] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras: /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras/AndroidManifest.xml
+20:25:55.145 [Worker-0] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.radaresmoveisararas, componentQualifiedNames=[br.com.radaresmoveisararas.activity.MainActivity_, br.com.radaresmoveisararas.activity.MenuActivity_], permissionQualifiedNames=[info.androidhive.googlemapsv2.permission.MAPS_RECEIVE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+20:25:55.146 [Worker-0] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: br.com.radaresmoveisararas.R
+20:25:55.153 [Worker-0] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+20:25:55.157 [Worker-0] INFO  o.a.p.ModelValidator:42 - Validating elements
+20:25:55.157 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:25:55.158 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [br.com.radaresmoveisararas.beans.Radar, br.com.radaresmoveisararas.beans.VersaoRadarLocal, br.com.radaresmoveisararas.tasks.ControleVersao, br.com.radaresmoveisararas.beans.RadarLocal, br.com.radaresmoveisararas.beans.VersaoRadares]
+20:25:55.159 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [msg, mDrawerLayout]
+20:25:55.160 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with RestHandler: [br.com.radaresmoveisararas.webservice.WebService]
+20:25:55.162 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with GetHandler: [public abstract java.lang.String obterRadarLocal() , public abstract java.lang.String obterRadares() , public abstract java.lang.String obterVersaoRadares() , public abstract java.lang.String obterVersaoRadarLocal() ]
+20:25:55.163 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:25:55.164 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with RestServiceHandler: [webService]
+20:25:55.164 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHanlder: [context]
+20:25:55.165 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [versaoRadares, versaoRadarLocal, controleVersao, radar, radarLocal]
+20:25:55.165 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [protected void iniciarClasse() , protected void carregarInformacoes() ]
+20:25:55.166 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [public void erroGooglePlayServices() , public void exibirMsg(java.lang.String) , public void atualizarMsg(java.lang.String) ]
+20:25:55.166 [Worker-0] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [public void iniciar(int) ]
+20:25:55.167 [Worker-0] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+20:25:55.167 [Worker-0] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:25:55.171 [Worker-0] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EBeanHandler: [br.com.radaresmoveisararas.beans.Radar, br.com.radaresmoveisararas.beans.VersaoRadarLocal, br.com.radaresmoveisararas.tasks.ControleVersao, br.com.radaresmoveisararas.beans.RadarLocal, br.com.radaresmoveisararas.beans.VersaoRadares]
+20:25:55.172 [Worker-0] DEBUG o.a.p.ModelProcessor:80 - Processing root elements RestHandler: [br.com.radaresmoveisararas.webservice.WebService]
+20:25:55.173 [Worker-0] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+20:25:55.175 [Worker-0] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 8
+20:25:55.176 [Worker-0] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+20:25:55.176 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.tasks.ControleVersao_
+20:25:55.179 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.webservice.WebService_
+20:25:55.182 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.activity.MainActivity_
+20:25:55.186 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.activity.MenuActivity_
+20:25:55.189 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.RadarLocal_
+20:25:55.191 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.Radar_
+20:25:55.193 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.VersaoRadarLocal_
+20:25:55.195 [Worker-0] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.VersaoRadares_
+20:25:55.197 [Worker-0] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 65 ms], [Generate Sources = 21 ms], [Extract Annotations = 12 ms], [Find R Classes = 11 ms], [Validate Annotations = 9 ms], [Process Annotations = 9 ms], [Extract Manifest = 1 ms], 
+20:25:55.197 [Worker-0] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+20:25:58.253 [Worker-9] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+20:25:58.254 [Worker-9] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 12 annotations on 13 elements
+20:25:58.294 [Worker-9] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras: /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras/AndroidManifest.xml
+20:25:58.296 [Worker-9] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.radaresmoveisararas, componentQualifiedNames=[br.com.radaresmoveisararas.activity.MainActivity_, br.com.radaresmoveisararas.activity.MenuActivity_], permissionQualifiedNames=[info.androidhive.googlemapsv2.permission.MAPS_RECEIVE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+20:25:58.298 [Worker-9] ERROR o.a.r.ProjectRClassFinder:46 - The generated br.com.radaresmoveisararas.R class cannot be found
+20:25:58.298 [Worker-9] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+20:25:58.304 [Worker-9] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 50 ms], [Extract Annotations = 40 ms], [Extract Manifest = 2 ms], 
+20:25:58.305 [Worker-9] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+20:26:00.266 [Worker-11] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+20:26:00.268 [Worker-11] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 12 annotations on 17 elements
+20:26:00.284 [Worker-11] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras: /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras/AndroidManifest.xml
+20:26:00.286 [Worker-11] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.radaresmoveisararas, componentQualifiedNames=[br.com.radaresmoveisararas.activity.MainActivity_, br.com.radaresmoveisararas.activity.MenuActivity_], permissionQualifiedNames=[info.androidhive.googlemapsv2.permission.MAPS_RECEIVE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+20:26:00.287 [Worker-11] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: br.com.radaresmoveisararas.R
+20:26:00.294 [Worker-11] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+20:26:00.301 [Worker-11] INFO  o.a.p.ModelValidator:42 - Validating elements
+20:26:00.302 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:26:00.303 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [br.com.radaresmoveisararas.beans.Radar, br.com.radaresmoveisararas.beans.VersaoRadarLocal, br.com.radaresmoveisararas.tasks.ControleVersao, br.com.radaresmoveisararas.beans.RadarLocal, br.com.radaresmoveisararas.beans.VersaoRadares]
+20:26:00.304 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [mDrawerLayout, msg]
+20:26:00.306 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with RestHandler: [br.com.radaresmoveisararas.webservice.WebService]
+20:26:00.309 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with GetHandler: [public abstract java.lang.String obterVersaoRadarLocal() , public abstract java.lang.String obterRadarLocal() , public abstract java.lang.String obterRadares() , public abstract java.lang.String obterVersaoRadares() ]
+20:26:00.310 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:26:00.312 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with RestServiceHandler: [webService]
+20:26:00.313 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHanlder: [context]
+20:26:00.314 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [controleVersao, versaoRadarLocal, radar, versaoRadares, radarLocal]
+20:26:00.315 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [protected void carregarInformacoes() , protected void iniciarClasse() ]
+20:26:00.315 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [public void erroGooglePlayServices() , public void atualizarMsg(java.lang.String) , public void exibirMsg(java.lang.String) ]
+20:26:00.316 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [public void iniciar(int) ]
+20:26:00.317 [Worker-11] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+20:26:00.317 [Worker-11] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:26:00.321 [Worker-11] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EBeanHandler: [br.com.radaresmoveisararas.beans.Radar, br.com.radaresmoveisararas.beans.VersaoRadarLocal, br.com.radaresmoveisararas.tasks.ControleVersao, br.com.radaresmoveisararas.beans.RadarLocal, br.com.radaresmoveisararas.beans.VersaoRadares]
+20:26:00.323 [Worker-11] DEBUG o.a.p.ModelProcessor:80 - Processing root elements RestHandler: [br.com.radaresmoveisararas.webservice.WebService]
+20:26:00.325 [Worker-11] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+20:26:00.328 [Worker-11] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 8
+20:26:00.329 [Worker-11] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+20:26:00.329 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.tasks.ControleVersao_
+20:26:00.334 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.webservice.WebService_
+20:26:00.339 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.activity.MainActivity_
+20:26:00.345 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.activity.MenuActivity_
+20:26:00.349 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.RadarLocal_
+20:26:00.354 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.Radar_
+20:26:00.356 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.VersaoRadarLocal_
+20:26:00.359 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.VersaoRadares_
+20:26:00.362 [Worker-11] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 94 ms], [Generate Sources = 34 ms], [Validate Annotations = 16 ms], [Extract Annotations = 15 ms], [Find R Classes = 14 ms], [Process Annotations = 11 ms], [Extract Manifest = 2 ms], 
+20:26:00.364 [Worker-11] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+20:26:24.464 [ModalContext] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+20:26:24.466 [ModalContext] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 12 annotations on 13 elements
+20:26:24.481 [ModalContext] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras: /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras/AndroidManifest.xml
+20:26:24.483 [ModalContext] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.radaresmoveisararas, componentQualifiedNames=[br.com.radaresmoveisararas.activity.MainActivity_, br.com.radaresmoveisararas.activity.MenuActivity_], permissionQualifiedNames=[info.androidhive.googlemapsv2.permission.MAPS_RECEIVE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+20:26:24.483 [ModalContext] ERROR o.a.r.ProjectRClassFinder:46 - The generated br.com.radaresmoveisararas.R class cannot be found
+20:26:24.484 [ModalContext] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+20:26:24.491 [ModalContext] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 26 ms], [Extract Annotations = 14 ms], [Extract Manifest = 3 ms], 
+20:26:24.491 [ModalContext] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+20:26:25.157 [Worker-11] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+20:26:25.159 [Worker-11] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 12 annotations on 17 elements
+20:26:25.172 [Worker-11] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras: /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras/AndroidManifest.xml
+20:26:25.174 [Worker-11] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.radaresmoveisararas, componentQualifiedNames=[br.com.radaresmoveisararas.activity.MainActivity_, br.com.radaresmoveisararas.activity.MenuActivity_], permissionQualifiedNames=[info.androidhive.googlemapsv2.permission.MAPS_RECEIVE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+20:26:25.175 [Worker-11] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: br.com.radaresmoveisararas.R
+20:26:25.181 [Worker-11] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+20:26:25.186 [Worker-11] INFO  o.a.p.ModelValidator:42 - Validating elements
+20:26:25.186 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:26:25.187 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [br.com.radaresmoveisararas.beans.Radar, br.com.radaresmoveisararas.beans.VersaoRadarLocal, br.com.radaresmoveisararas.tasks.ControleVersao, br.com.radaresmoveisararas.beans.RadarLocal, br.com.radaresmoveisararas.beans.VersaoRadares]
+20:26:25.189 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [mDrawerLayout, msg]
+20:26:25.190 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with RestHandler: [br.com.radaresmoveisararas.webservice.WebService]
+20:26:25.192 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with GetHandler: [public abstract java.lang.String obterVersaoRadares() , public abstract java.lang.String obterRadarLocal() , public abstract java.lang.String obterVersaoRadarLocal() , public abstract java.lang.String obterRadares() ]
+20:26:25.193 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:26:25.196 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with RestServiceHandler: [webService]
+20:26:25.196 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHanlder: [context]
+20:26:25.197 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [controleVersao, versaoRadares, versaoRadarLocal, radarLocal, radar]
+20:26:25.198 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [protected void carregarInformacoes() , protected void iniciarClasse() ]
+20:26:25.198 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [public void atualizarMsg(java.lang.String) , public void exibirMsg(java.lang.String) , public void erroGooglePlayServices() ]
+20:26:25.198 [Worker-11] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [public void iniciar(int) ]
+20:26:25.199 [Worker-11] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+20:26:25.200 [Worker-11] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:26:25.203 [Worker-11] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EBeanHandler: [br.com.radaresmoveisararas.beans.Radar, br.com.radaresmoveisararas.beans.VersaoRadarLocal, br.com.radaresmoveisararas.tasks.ControleVersao, br.com.radaresmoveisararas.beans.RadarLocal, br.com.radaresmoveisararas.beans.VersaoRadares]
+20:26:25.204 [Worker-11] DEBUG o.a.p.ModelProcessor:80 - Processing root elements RestHandler: [br.com.radaresmoveisararas.webservice.WebService]
+20:26:25.206 [Worker-11] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+20:26:25.208 [Worker-11] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 8
+20:26:25.208 [Worker-11] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+20:26:25.209 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.tasks.ControleVersao_
+20:26:25.212 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.webservice.WebService_
+20:26:25.215 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.activity.MainActivity_
+20:26:25.219 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.activity.MenuActivity_
+20:26:25.222 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.RadarLocal_
+20:26:25.224 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.Radar_
+20:26:25.226 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.VersaoRadarLocal_
+20:26:25.227 [Worker-11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.VersaoRadares_
+20:26:25.229 [Worker-11] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 70 ms], [Generate Sources = 21 ms], [Extract Annotations = 13 ms], [Validate Annotations = 13 ms], [Find R Classes = 11 ms], [Process Annotations = 9 ms], [Extract Manifest = 2 ms], 
+20:26:25.230 [Worker-11] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+20:26:27.733 [Worker-8] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+20:26:27.734 [Worker-8] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 12 annotations on 13 elements
+20:26:27.747 [Worker-8] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras: /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras/AndroidManifest.xml
+20:26:27.749 [Worker-8] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.radaresmoveisararas, componentQualifiedNames=[br.com.radaresmoveisararas.activity.MainActivity_, br.com.radaresmoveisararas.activity.MenuActivity_], permissionQualifiedNames=[info.androidhive.googlemapsv2.permission.MAPS_RECEIVE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+20:26:27.749 [Worker-8] ERROR o.a.r.ProjectRClassFinder:46 - The generated br.com.radaresmoveisararas.R class cannot be found
+20:26:27.750 [Worker-8] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+20:26:27.754 [Worker-8] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 20 ms], [Extract Annotations = 12 ms], [Extract Manifest = 3 ms], 
+20:26:27.754 [Worker-8] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+20:31:01.98 [Worker-1] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+20:31:01.100 [Worker-1] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 12 annotations on 17 elements
+20:31:01.115 [Worker-1] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras: /Users/gdonscoi/Documents/workspace/RadaresMoveisAraras/AndroidManifest.xml
+20:31:01.116 [Worker-1] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.radaresmoveisararas, componentQualifiedNames=[br.com.radaresmoveisararas.activity.MainActivity_, br.com.radaresmoveisararas.activity.MenuActivity_], permissionQualifiedNames=[info.androidhive.googlemapsv2.permission.MAPS_RECEIVE, android.permission.ACCESS_NETWORK_STATE, android.permission.INTERNET, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_WIFI_STATE], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+20:31:01.117 [Worker-1] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: br.com.radaresmoveisararas.R
+20:31:01.125 [Worker-1] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+20:31:01.133 [Worker-1] INFO  o.a.p.ModelValidator:42 - Validating elements
+20:31:01.133 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:31:01.134 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with EBeanHandler: [br.com.radaresmoveisararas.beans.Radar, br.com.radaresmoveisararas.beans.VersaoRadarLocal, br.com.radaresmoveisararas.tasks.ControleVersao, br.com.radaresmoveisararas.beans.RadarLocal, br.com.radaresmoveisararas.beans.VersaoRadares]
+20:31:01.135 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [mDrawerLayout, msg]
+20:31:01.138 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with RestHandler: [br.com.radaresmoveisararas.webservice.WebService]
+20:31:01.142 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with GetHandler: [public abstract java.lang.String obterVersaoRadares() , public abstract java.lang.String obterVersaoRadarLocal() , public abstract java.lang.String obterRadares() , public abstract java.lang.String obterRadarLocal() ]
+20:31:01.143 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:31:01.143 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with RestServiceHandler: [webService]
+20:31:01.143 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with RootContextHanlder: [context]
+20:31:01.144 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with BeanHandler: [versaoRadarLocal, radarLocal, radar, versaoRadares, controleVersao]
+20:31:01.144 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [protected void iniciarClasse() , protected void carregarInformacoes() ]
+20:31:01.145 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [public void atualizarMsg(java.lang.String) , public void exibirMsg(java.lang.String) , public void erroGooglePlayServices() ]
+20:31:01.145 [Worker-1] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [public void iniciar(int) ]
+20:31:01.146 [Worker-1] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+20:31:01.146 [Worker-1] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [br.com.radaresmoveisararas.activity.MenuActivity, br.com.radaresmoveisararas.activity.MainActivity]
+20:31:01.153 [Worker-1] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EBeanHandler: [br.com.radaresmoveisararas.beans.Radar, br.com.radaresmoveisararas.beans.VersaoRadarLocal, br.com.radaresmoveisararas.tasks.ControleVersao, br.com.radaresmoveisararas.beans.RadarLocal, br.com.radaresmoveisararas.beans.VersaoRadares]
+20:31:01.154 [Worker-1] DEBUG o.a.p.ModelProcessor:80 - Processing root elements RestHandler: [br.com.radaresmoveisararas.webservice.WebService]
+20:31:01.163 [Worker-1] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+20:31:01.166 [Worker-1] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 8
+20:31:01.166 [Worker-1] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+20:31:01.167 [Worker-1] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.tasks.ControleVersao_
+20:31:01.177 [Worker-1] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.webservice.WebService_
+20:31:01.182 [Worker-1] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.activity.MainActivity_
+20:31:01.186 [Worker-1] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.activity.MenuActivity_
+20:31:01.191 [Worker-1] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.RadarLocal_
+20:31:01.194 [Worker-1] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.Radar_
+20:31:01.195 [Worker-1] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.VersaoRadarLocal_
+20:31:01.197 [Worker-1] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.radaresmoveisararas.beans.VersaoRadares_
+20:31:01.199 [Worker-1] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 99 ms], [Generate Sources = 33 ms], [Process Annotations = 21 ms], [Find R Classes = 16 ms], [Extract Annotations = 13 ms], [Validate Annotations = 12 ms], [Extract Manifest = 2 ms], 
+20:31:01.200 [Worker-1] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
