@@ -38,6 +38,7 @@ O que significa?<br>
 * data: Data do dia<br>
 * radarLocal: Identificador do "cadastro" de radares (RadarLocal)
 
+######Para atualizar o aplicativo com as novas informações dos arquivos, basta modificar o numero em que a versão está. Os arquivos: VersaoRadar e VersaoRadarLocal fazem o controle de versão dos dados, para que o aplicativo atualize apenas quando há algo novo.
 
 [Link Divulgação dos radares](http://www.araras.sp.gov.br/e/?c=especial&i=12412)<br>
 [Link para download no Google Play](https://play.google.com/store/apps/details?id=br.com.radaresmoveisararas)
