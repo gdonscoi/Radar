@@ -1,8 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-<ProgressBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:focusable="true"
-            android:showAsAction="always"
-            style="@android:style/Widget.ProgressBar.Small"/>
+ <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
 </menu>

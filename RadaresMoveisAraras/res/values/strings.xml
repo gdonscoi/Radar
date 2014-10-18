@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Visualizar todos radares do dia</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_menu">MenuActivity</string>
     <string name="drawer_open">Open navigation drawer</string>
@@ -11,7 +11,18 @@
     <string name="menuitem_refresh">Carregando</string>
     <string name="msg_aguarde">Aguarde</string>
     <string name="content_image">Velocimetro</string>
-    
-    
+    <string name="email">donscoijr@gmail.com</string>
+    <string name="nome">Gerson Donscoi Junior</string>
+    <string name="escolha">Escolha o dia</string>
+
+    <string-array name="string_array_semana">
+        <item>Domingo</item>
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+        <item>Sabado</item>
+    </string-array>
 
 </resources>

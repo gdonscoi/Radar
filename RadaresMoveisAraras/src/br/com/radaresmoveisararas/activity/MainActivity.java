@@ -26,7 +26,7 @@ import br.com.radaresmoveisararas.R;
 import br.com.radaresmoveisararas.tasks.ControleVersao;
 import br.com.radaresmoveisararas.util.Util;
 
-@OptionsMenu(R.menu.main)
+@OptionsMenu(R.menu.menu)
 @EActivity(R.layout.activity_main)
 public class MainActivity extends ActionBarActivity {
 

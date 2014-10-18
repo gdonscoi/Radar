@@ -36,10 +36,10 @@ public final class ControleVersao_
         } else {
             Log.w("ControleVersao_", (("Due to Context class "+ context_.getClass().getSimpleName())+", the @RootContext MainActivity won't be populated"));
         }
+        versaoRadares = VersaoRadares_.getInstance_(context_);
+        radar = Radar_.getInstance_(context_);
         versaoRadarLocal = VersaoRadarLocal_.getInstance_(context_);
         radarLocal = RadarLocal_.getInstance_(context_);
-        radar = Radar_.getInstance_(context_);
-        versaoRadares = VersaoRadares_.getInstance_(context_);
     }
 
     public void rebind(Context context) {

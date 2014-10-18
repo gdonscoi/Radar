@@ -9,13 +9,17 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.DrawerLayout;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.LinearLayout;
 import br.com.radaresmoveisararas.R.id;
 import br.com.radaresmoveisararas.R.layout;
 import org.androidannotations.api.SdkVersionHelper;
@@ -29,6 +33,7 @@ public final class MenuActivity_
 {
 
     private final OnViewChangedNotifier onViewChangedNotifier_ = new OnViewChangedNotifier();
+    private Handler handler_ = new Handler(Looper.getMainLooper());
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -79,6 +84,7 @@ public final class MenuActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        adMobLayout = ((LinearLayout) hasViews.findViewById(id.adMob));
         mDrawerLayout = ((DrawerLayout) hasViews.findViewById(id.drawer_layout));
         carregarInformacoes();
     }
@@ -88,6 +94,34 @@ public final class MenuActivity_
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(br.com.radaresmoveisararas.R.menu.main, menu);
         return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        boolean handled = super.onOptionsItemSelected(item);
+        if (handled) {
+            return true;
+        }
+        int itemId_ = item.getItemId();
+        if (itemId_ == id.action_settings) {
+            clickTodosRadares();
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public void exibirMsg(final String mensagem) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                MenuActivity_.super.exibirMsg(mensagem);
+            }
+
+        }
+        );
     }
 
     public static class IntentBuilder_ {

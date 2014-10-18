@@ -138,8 +138,8 @@ public class MenuAdapter extends  BaseExpandableListAdapter implements Serializa
 			View convertView, ViewGroup parent) {
 
 		TextView textViewCategorias = new TextView(context);
-		textViewCategorias.setText(listaPai.get(groupPosition) + " - " + Util.formatDate(listafilho.get(groupPosition).get(0).radar.data));
-		textViewCategorias.setPadding(30, 10, 0, 5);
+		textViewCategorias.setText(listaPai.get(groupPosition) + "-" + Util.formatDate(listafilho.get(groupPosition).get(0).radar.data));
+		textViewCategorias.setPadding(50, 10, 0, 5);
 		textViewCategorias.setTextSize(20);
 		textViewCategorias.setTypeface(null, Typeface.BOLD);
 		textViewCategorias.setTextColor(Color.parseColor("#000000"));
@@ -190,6 +190,14 @@ public class MenuAdapter extends  BaseExpandableListAdapter implements Serializa
 		}catch(Exception e){
 			throw new Exception(e.getMessage());
 		}
+	}
+	
+	public ArrayList<RadarRadarLocal> getTodosRadaresSemana(int idSemana) throws SQLException{
+		Dao<RadarRadarLocal, Integer> radarRadarLocalDao = ORMLiteHelper.getInstance(context).getRadarRadarLocalBDDao();
+		
+		Where<RadarRadarLocal, Integer> where = radarRadarLocalDao.queryBuilder()
+				.where().eq("radar_semana", idSemana);
+		return new ArrayList<RadarRadarLocal>(radarRadarLocalDao.query(where.prepare()));
 	}
 
 }

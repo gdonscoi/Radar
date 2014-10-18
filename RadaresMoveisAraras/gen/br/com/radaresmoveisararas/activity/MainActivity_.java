@@ -92,8 +92,22 @@ public final class MainActivity_
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(br.com.radaresmoveisararas.R.menu.main, menu);
+        menuInflater.inflate(br.com.radaresmoveisararas.R.menu.menu, menu);
         return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public void erroGooglePlayServices() {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                MainActivity_.super.erroGooglePlayServices();
+            }
+
+        }
+        );
     }
 
     @Override
@@ -118,20 +132,6 @@ public final class MainActivity_
             @Override
             public void run() {
                 MainActivity_.super.exibirMsg(mensagem);
-            }
-
-        }
-        );
-    }
-
-    @Override
-    public void erroGooglePlayServices() {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                MainActivity_.super.erroGooglePlayServices();
             }
 
         }

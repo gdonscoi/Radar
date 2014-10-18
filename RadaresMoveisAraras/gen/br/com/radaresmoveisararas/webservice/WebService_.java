@@ -33,34 +33,6 @@ public final class WebService_
     }
 
     @Override
-    public String obterVersaoRadares() {
-        try {
-            return restTemplate.exchange(rootUrl.concat("VersaoRadar"), HttpMethod.GET, null, String.class).getBody();
-        } catch (RestClientException e) {
-            if (restErrorHandler!= null) {
-                restErrorHandler.onRestClientExceptionThrown(e);
-                return null;
-            } else {
-                throw e;
-            }
-        }
-    }
-
-    @Override
-    public String obterVersaoRadarLocal() {
-        try {
-            return restTemplate.exchange(rootUrl.concat("VersaoRadarLocal"), HttpMethod.GET, null, String.class).getBody();
-        } catch (RestClientException e) {
-            if (restErrorHandler!= null) {
-                restErrorHandler.onRestClientExceptionThrown(e);
-                return null;
-            } else {
-                throw e;
-            }
-        }
-    }
-
-    @Override
     public String obterRadares() {
         try {
             return restTemplate.exchange(rootUrl.concat("Radar"), HttpMethod.GET, null, String.class).getBody();
@@ -75,9 +47,37 @@ public final class WebService_
     }
 
     @Override
+    public String obterVersaoRadares() {
+        try {
+            return restTemplate.exchange(rootUrl.concat("VersaoRadar"), HttpMethod.GET, null, String.class).getBody();
+        } catch (RestClientException e) {
+            if (restErrorHandler!= null) {
+                restErrorHandler.onRestClientExceptionThrown(e);
+                return null;
+            } else {
+                throw e;
+            }
+        }
+    }
+
+    @Override
     public String obterRadarLocal() {
         try {
             return restTemplate.exchange(rootUrl.concat("RadarLocal"), HttpMethod.GET, null, String.class).getBody();
+        } catch (RestClientException e) {
+            if (restErrorHandler!= null) {
+                restErrorHandler.onRestClientExceptionThrown(e);
+                return null;
+            } else {
+                throw e;
+            }
+        }
+    }
+
+    @Override
+    public String obterVersaoRadarLocal() {
+        try {
+            return restTemplate.exchange(rootUrl.concat("VersaoRadarLocal"), HttpMethod.GET, null, String.class).getBody();
         } catch (RestClientException e) {
             if (restErrorHandler!= null) {
                 restErrorHandler.onRestClientExceptionThrown(e);
