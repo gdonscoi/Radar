@@ -190,5 +190,13 @@
     "localizacaoFim": "-22.367149, -47.391506",
     "descricao": "limite 40 km/h",
     "pontos": "fmogCltg`HDUDSNcANaAPcANcAb@cCXuA"
+  },
+  {
+    "id": "25",
+    "nomeRua": "Av. Romana Ometto",
+    "localizacaoInicio": "-22.356210, -47.397318",
+    "localizacaoFim": "-22.350638, -47.396985",
+    "descricao": "limite 40 km/h",
+    "pontos": "lmmgCfhh`Ho@Cs@?_DMkAAiAEM?qDEI?kAEiAEG@G?qACqACK?KAsAIcAG"
   }
 ]
