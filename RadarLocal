@@ -198,5 +198,13 @@
     "localizacaoFim": "-22.350638, -47.396985",
     "descricao": "limite 40 km/h",
     "pontos": "lmmgCfhh`Ho@Cs@?_DMkAAiAEM?qDEI?kAEiAEG@G?qACqACK?KAsAIcAG"
+  },
+   {
+    "id": "26",
+    "nomeRua": "Av. Jerõnimo Ometo",
+    "localizacaoInicio": "-22.351221, -47.401647",
+    "localizacaoFim": "-22.347866, -47.407846",
+    "descricao": "limite 40 km/h",
+    "pontos": "bnlgChci`HINSVSb@W^m@pASd@Sb@oAlCQ\Q\\MRKTsBhE?@Yl@S`@]v@_@t@Wj@S^"
   }
 ]
